@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "737153354199",
+    "firebase_url": "https://cinematcc-243c0.firebaseio.com",
+    "project_id": "cinematcc-243c0",
+    "storage_bucket": "cinematcc-243c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737153354199:android:654224bf26347e21f22392",
+        "android_client_info": {
+          "package_name": "com.example.cinematcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737153354199-qgrt92a9n75u1lugc1uhh8lpfsrih35b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cinematcc",
+            "certificate_hash": "a8829dc2aed42ce79d4e8f6c094262d34c355c3d"
+          }
+        },
+        {
+          "client_id": "737153354199-enadc5jlifkbk7tvnop6asshmfn2d7vu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClIk3NEFOCNqv1aGzS1wyTOcE0HjGFNzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737153354199-enadc5jlifkbk7tvnop6asshmfn2d7vu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
