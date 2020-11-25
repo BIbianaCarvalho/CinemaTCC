@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="funcao">
+        <item>Produtor</item>
+        <item>Diretor</item>
+        <item>Diretor de Fotografia</item>
+        <item>Produtor</item>
+        <item>Diretor de Arte</item>
+        <item>Diretor de produção</item>
+        <item>Roteirista</item>
+        <item>Foquista </item>
+        <item>Continuísta </item>
+        <item>Maquinista</item>
+        <item>Diretor de elenco</item>
+        <item>Montador</item>
+        <item>Figurinista</item>
+        <item>Maquiador</item>
+        <item>Assistende de câmera</item>
+        <item>Operador de câmera</item>
+        <item>Departamento de som</item>
+        <item>Departamento de arte</item>
+        <item>Sonoplasta</item>
+        <item>Designer de produção</item>
+        <item>Gerente de locações</item>
+        <item>Gerente de produção</item>
+        <item>Decorador de set</item>
+        <item>Assistente de direção</item>
+        <item>Storyboarder</item>
+
+    </array>
+
+</resources>
+
+
+
+
+

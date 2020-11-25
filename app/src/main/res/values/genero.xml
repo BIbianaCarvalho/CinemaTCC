@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="genero">
+        <item>Ação</item>
+        <item>Comédia</item>
+        <item>Documentário</item>
+        <item>Drama</item>
+        <item>Fantasia</item>
+        <item>Ficção Científica</item>
+        <item>Filmes de guerra</item>
+        <item>Musical</item>
+        <item>Romance</item>
+        <item>Suspense</item>
+        <item>Terror</item>
+
+    </array>
+
+</resources>
+
+
+
+
+
