@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/allura</item>
+        <item>@font/anton</item>
         <item>@font/bad_script</item>
         <item>@font/hind_guntur</item>
     </array>

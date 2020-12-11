@@ -24,11 +24,9 @@ public class Menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
         aliasrolo=findViewById(R.id.imageviewProj);
         aliaspesquisa = findViewById(R.id.ImageViewVisua);
-        aliaspipoca = findViewById(R.id.imageViewEdit);
 
         aliasproj = findViewById(R.id.textProj);
         aliasvagas = findViewById(R.id.textVagas);
-        aliaspopcorn = findViewById(R.id.textEdit);
         aliasperfil = findViewById(R.id.imageView2);
         aliasBotaoSair = findViewById(R.id.buttonSair);
         aliasOscar = findViewById(R.id.textViewPerfil);

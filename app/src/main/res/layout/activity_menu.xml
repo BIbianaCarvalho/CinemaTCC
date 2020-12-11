@@ -14,14 +14,12 @@
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="50dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageViewEdit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
 
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/rolo" />
 
     <ImageView
@@ -39,44 +37,26 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/search" />
 
-    <ImageView
-        android:id="@+id/imageViewEdit"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="300dp"
-        android:layout_marginBottom="112dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/popcorn" />
-
     <TextView
         android:id="@+id/textProj"
         android:layout_width="133dp"
         android:layout_height="43dp"
-        android:layout_marginBottom="60dp"
-        android:fontFamily="@font/bad_script"
+        android:fontFamily="@font/anton"
         android:paddingLeft="25dp"
         android:text="Novo projeto"
         android:textColor="@color/cinza"
         android:textSize="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageViewEdit"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageviewProj"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageviewProj" />
 
 
     <TextView
         android:id="@+id/textVagas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/bad_script"
+        android:fontFamily="@font/anton"
         android:text="Visualizar vagas"
         android:textColor="@color/cinza"
         android:textSize="20dp"
@@ -87,21 +67,6 @@
         app:layout_constraintTop_toBottomOf="@+id/ImageViewVisua"
         app:layout_constraintVertical_bias="0.0" />
 
-    <TextView
-        android:id="@+id/textEdit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/bad_script"
-        android:text="Editar currículo"
-        android:textColor="@color/cinza"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.15"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewEdit"
-        app:layout_constraintVertical_bias="0.0" />
-
     <Button
         android:id="@+id/buttonSair"
         android:layout_width="150dp"
@@ -109,15 +74,15 @@
         android:layout_marginRight="30dp"
         android:background="@drawable/bg_edittext_redondo"
         android:backgroundTint="@color/rosinha"
-        android:fontFamily="@font/bad_script"
+        android:fontFamily="@font/anton"
         android:text="Sair "
         android:textColor="@color/preto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.984"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.937" />
+        app:layout_constraintVertical_bias="0.754" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -127,7 +92,7 @@
         android:layout_marginRight="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -137,16 +102,47 @@
         android:id="@+id/textViewPerfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/bad_script"
+        android:fontFamily="@font/anton"
         android:text="Visualizar perfil"
         android:textColor="@color/cinza"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.835"
+        app:layout_constraintHorizontal_bias="0.147"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807" /><![CDATA[
+        app:layout_constraintVertical_bias="0.799" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_edittext_redondo"
+        android:backgroundTint="@color/rosinha"
+        android:fontFamily="@font/anton"
+        android:text="Meus projetos "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_edittext_redondo"
+        android:backgroundTint="@color/rosinha"
+        android:fontFamily="@font/anton"
+        android:text="Minhas vagas "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.612" />
+    <![CDATA[
 
     >
 ]]>

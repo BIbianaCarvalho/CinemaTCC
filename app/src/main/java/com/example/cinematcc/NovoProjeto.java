@@ -14,7 +14,7 @@ public class NovoProjeto extends AppCompatActivity {
 
 
 
-    EditText aliasNomeProjeto, aliasFuncProj, aliasNumeroVagas, aliasDataProj;
+    EditText  aliasNumeroVagas, aliasDataProj;
     Button aliasbotaoSalvar;
     ImageView aliasbotaoVoltar;
     Intent i;
@@ -24,8 +24,6 @@ public class NovoProjeto extends AppCompatActivity {
         setContentView(R.layout.activity_novo_projeto);
         aliasbotaoSalvar = findViewById(R.id.buttonSalvar);
         aliasbotaoVoltar = findViewById(R.id.imageViewVoltar);
-        aliasNomeProjeto = findViewById(R.id.editNomeProj);
-        aliasFuncProj = findViewById(R.id.editFunc);
         aliasNumeroVagas = findViewById(R.id.editVagas);
         aliasDataProj = findViewById(R.id.editTextdata);
 
