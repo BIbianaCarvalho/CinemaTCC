@@ -36,14 +36,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
-                .requestEmail()
-                .build();
-
-
-        mGoogleApiClient = new GoogleApiClient.Builder(this).enableAutoManage(this, this).addApi(GoogleAuthProvider.GOOGLE_SIGN_IN_API, gso).build() ;
-
         mAuth = FirebaseAuth.getInstance();
 
         aliasBotao = findViewById(R.id.buttonid);
@@ -64,8 +56,16 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    public void clicar(View view){
-        i = new Intent(this, CadastroPessoa.class);
-        startActivity(i);
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        // Check if user is signed in (non-null) and update UI accordingly.
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+        updateUI(currentUser);
     }
+
+
+
+
 }
