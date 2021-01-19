@@ -12,8 +12,8 @@ import android.widget.TextView;
 public class Menu extends AppCompatActivity {
 
 
-    ImageView aliasrolo, aliaspesquisa, aliaspipoca, aliasperfil;
-    TextView aliasproj, aliasvagas, aliaspopcorn, aliasOscar;
+    ImageView aliasrolo, aliaspesquisa, aliasperfil;
+    TextView aliasproj, aliasvagas,  aliasOscar;
     Button  aliasBotaoSair;
 
     Intent i;
