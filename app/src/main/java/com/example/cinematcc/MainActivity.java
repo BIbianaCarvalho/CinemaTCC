@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 }).addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(MainActivity.this, "Falha ao logar", Toast.LENGTH_SHORT).show();     
+                        Toast.makeText(MainActivity.this, "Falha ao logar", Toast.LENGTH_SHORT).show();
                     }
                 });
             }

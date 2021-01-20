@@ -7,13 +7,37 @@
     android:background="@color/brancocreme"
     tools:context=".NovoProjeto">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="412dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icons" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="412dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/icons" />
+
     <EditText
         android:id="@+id/editTextNome"
         android:layout_width="340dp"
         android:layout_height="30dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_edittext_redondo"
-        android:backgroundTint="@color/creme"
+        android:backgroundTint="@color/verdinhoazul"
         android:ems="10"
         android:fontFamily="@font/hind_guntur"
         android:hint="Nome do projeto"
@@ -31,7 +55,7 @@
         android:layout_width="50dp"
         android:layout_height="wrap_content"
         android:background="@drawable/bg_edittext_redondo"
-        android:backgroundTint="@color/creme"
+        android:backgroundTint="@color/verdinhoazul"
         android:ems="10"
         android:fontFamily="@font/hind_guntur"
         android:hint="Nº"
@@ -49,7 +73,7 @@
         android:layout_width="340dp"
         android:layout_height="30dp"
         android:background="@drawable/bg_edittext_redondo"
-        android:backgroundTint="@color/creme"
+        android:backgroundTint="@color/verdinhoazul"
         android:ems="10"
         android:entries="@array/funcao"
         android:fontFamily="@font/hind_guntur"
@@ -68,7 +92,7 @@
         android:layout_width="340dp"
         android:layout_height="30dp"
         android:background="@drawable/bg_edittext_redondo"
-        android:backgroundTint="@color/creme"
+        android:backgroundTint="@color/verdinhoazul"
         android:ems="10"
         android:entries="@array/genero"
         android:fontFamily="@font/hind_guntur"
@@ -94,33 +118,32 @@
         android:textColor="@color/cinza"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.946" />
+        app:layout_constraintVertical_bias="0.907" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:fontFamily="@font/anton"
+        android:fontFamily="@font/bad_script"
         android:text="Meu projeto"
-        android:textColor="@color/cinzinha"
+        android:textColor="@color/vermelho"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.081" />
 
     <EditText
         android:id="@+id/editTextdata"
         android:layout_width="340dp"
         android:layout_height="30dp"
         android:background="@drawable/bg_edittext_redondo"
-        android:backgroundTint="@color/creme"
+        android:backgroundTint="@color/verdinhoazul"
         android:ems="10"
         android:fontFamily="@font/hind_guntur"
         android:hint="Vagas abertas até: "
@@ -133,21 +156,7 @@
         app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.596" />
-
-    <ImageView
-        android:id="@+id/imageViewVoltar"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.016"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.012"
-        app:srcCompat="@drawable/voltar" />
+        app:layout_constraintVertical_bias="0.602" />
 
     <TextView
         android:id="@+id/textView2"
@@ -164,7 +173,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/preto"
+        android:backgroundTint="@color/vermelho"
         android:text="Tipo de vaga"
         app:layout_constraintBottom_toTopOf="@+id/editFunc"
         app:layout_constraintEnd_toEndOf="parent"
@@ -172,4 +181,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

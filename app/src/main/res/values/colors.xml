@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="rosinha">#FF9696</color>
+    <color name="rosinha">#29ACC8</color>
+    <color name="verdinhoazul">#79CFE1</color>
     <color name="branco">#FFFFFF</color>
     <color name="cinza">#262525</color>
     <color name="preto">#000000</color>
     <color name="brancocreme">#FFFAFA</color>
     <color name="vermelhoalaranjado">#E43F3F</color>
     <color name="cinzinha">#787474</color>
-    <color name="creme">#FDC8C8</color>
+    <color name="vermelho">#FF5829</color>
+    <color name="creminho">#E2AB73</color>
 
 
 </resources>

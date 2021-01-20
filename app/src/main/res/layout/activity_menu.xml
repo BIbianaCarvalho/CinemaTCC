@@ -4,8 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu"
-    android:background="@color/brancocreme">
+    android:background="@color/brancocreme"
+    tools:context=".Menu">
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="412dp"
+        android:layout_height="81dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/icons" />
 
     <ImageView
         android:id="@+id/imageviewProj"
@@ -13,44 +26,46 @@
         android:layout_height="150dp"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.008"
+
+
         app:layout_constraintStart_toStartOf="parent"
-
-
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/rolo" />
+        app:layout_constraintVertical_bias="0.185"
+        app:srcCompat="@drawable/rolo3cor" />
 
     <ImageView
         android:id="@+id/ImageViewVisua"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="50dp"
-        android:layout_marginRight="30dp"
         android:layout_marginBottom="368dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/imageviewProj"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/search" />
+        app:layout_constraintVertical_bias="0.343"
+        app:srcCompat="@drawable/oculos3d" />
 
     <TextView
         android:id="@+id/textProj"
-        android:layout_width="133dp"
-        android:layout_height="43dp"
+        android:layout_width="155dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="@font/anton"
         android:paddingLeft="25dp"
         android:text="Novo projeto"
         android:textColor="@color/cinza"
         android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageviewProj" />
-
+        app:layout_constraintTop_toBottomOf="@+id/imageviewProj"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textVagas"
@@ -62,15 +77,15 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintHorizontal_bias="0.868"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ImageViewVisua"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.017" />
 
     <Button
         android:id="@+id/buttonSair"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
+        android:layout_width="133dp"
+        android:layout_height="32dp"
         android:layout_marginRight="30dp"
         android:background="@drawable/bg_edittext_redondo"
         android:backgroundTint="@color/rosinha"
@@ -79,10 +94,10 @@
         android:textColor="@color/preto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintHorizontal_bias="0.942"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.754" />
+        app:layout_constraintVertical_bias="0.926" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -92,11 +107,11 @@
         android:layout_marginRight="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.141"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/oscar" />
+        app:layout_constraintVertical_bias="0.31"
+        app:srcCompat="@drawable/teatro" />
 
     <TextView
         android:id="@+id/textViewPerfil"
@@ -108,42 +123,47 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintHorizontal_bias="0.167"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799" />
+        app:layout_constraintVertical_bias="0.811" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:background="@drawable/bg_edittext_redondo"
-        android:backgroundTint="@color/rosinha"
+    <TextView
+        android:id="@+id/textProjetos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/anton"
-        android:text="Meus projetos "
+        android:text="Meus projetos"
+        android:textColor="@color/cinza"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.479" />
+        app:layout_constraintVertical_bias="0.811" />
 
-    <Button
-        android:id="@+id/button1"
+    <ImageView
+        android:id="@+id/imageCadeirinha"
         android:layout_width="150dp"
-        android:layout_height="40dp"
-        android:background="@drawable/bg_edittext_redondo"
-        android:backgroundTint="@color/rosinha"
-        android:fontFamily="@font/anton"
-        android:text="Minhas vagas "
+        android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
+        app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612" />
-    <![CDATA[
+        app:layout_constraintVertical_bias="0.662"
+        app:srcCompat="@drawable/cadeirinha" /><![CDATA[
+
+
+
+
+
+
 
     >
+
+
+
 ]]>
 </androidx.constraintlayout.widget.ConstraintLayout>

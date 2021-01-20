@@ -16,14 +16,13 @@ public class NovoProjeto extends AppCompatActivity {
 
     EditText  aliasNumeroVagas, aliasDataProj;
     Button aliasbotaoSalvar;
-    ImageView aliasbotaoVoltar;
     Intent i;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_novo_projeto);
+
         aliasbotaoSalvar = findViewById(R.id.buttonSalvar);
-        aliasbotaoVoltar = findViewById(R.id.imageViewVoltar);
         aliasNumeroVagas = findViewById(R.id.editVagas);
         aliasDataProj = findViewById(R.id.editTextdata);
 
@@ -38,12 +37,7 @@ public class NovoProjeto extends AppCompatActivity {
             }
         });
 
-        aliasbotaoVoltar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+
     }
 
 }

@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NovoProjeto"></activity>
+        <activity android:name=".Candidatos"></activity>
+        <activity android:name=".MeusProjetos" />
+        <activity android:name=".Perfil" />
+        <activity android:name=".Vagas" />
+        <activity android:name=".MinhasVagas" />
+        <activity android:name=".NovoProjeto" />
         <activity android:name=".Menu" />
         <activity android:name=".CadastroPessoa" />
         <activity android:name=".Controle.ManterGenero" />
